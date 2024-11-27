@@ -8,8 +8,6 @@ from datetime import datetime, timedelta
 from xml.sax.saxutils import escape
 import xml.etree.ElementTree as ET
 
-
-
 class ScheduledTask:
     def __init__(self, gpo_type="computer", name="", mod_date="", description="", powershell=False, command="", old_value=""):
         self._type = gpo_type

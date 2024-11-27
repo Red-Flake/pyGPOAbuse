@@ -1,7 +1,6 @@
 import logging
 import sys
 
-
 class GpoFormatter(logging.Formatter):
     # Custom formatting. Inspired by impacket "Logger" class
 

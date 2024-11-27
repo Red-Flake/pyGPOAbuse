@@ -4,7 +4,6 @@ import asyncio
 from msldap.commons.factory import LDAPConnectionFactory
 from msldap.ldap_objects import MSADGPO
 
-
 class Ldap:
     def __init__(self, url, gpo_id, domain):
         self.domain_dn = ",".join("DC={}".format(d) for d in domain.split("."))

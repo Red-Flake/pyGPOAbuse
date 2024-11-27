@@ -1,9 +1,8 @@
 import asyncio
 import logging
 import re
-from pygpoabuse.scheduledtask import ScheduledTask
-from pygpoabuse.ldap import Ldap
-
+from scheduledtask import ScheduledTask
+from ldap import Ldap
 
 class GPO:
     def __init__(self, smb_session):
