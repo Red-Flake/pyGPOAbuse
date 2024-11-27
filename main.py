@@ -18,8 +18,8 @@ def main():
     from impacket.smbconnection import SMBConnection
     from impacket.examples.utils import parse_credentials
 
-    import logger
-    import gpo
+    from . import logger
+    from . import gpo
 
     parser = argparse.ArgumentParser(add_help=True, description="Add ScheduledTask to GPO")
 
