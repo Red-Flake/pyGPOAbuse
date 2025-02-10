@@ -19,7 +19,7 @@ def main():
     from impacket.examples.utils import parse_credentials
 
     import logger
-    import gpo
+    from gpo import GPO
 
     parser = argparse.ArgumentParser(add_help=True, description="Add ScheduledTask to GPO")
 
